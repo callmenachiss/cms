@@ -18,6 +18,7 @@ public class CustomerController {
     @Autowired
     private CustomerService customerService;
     //will help you to link backend to frontend
+    //dummy options are iupdated
 
     //create new customer
     @PostMapping("/createCustomer")
