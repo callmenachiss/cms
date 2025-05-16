@@ -15,6 +15,7 @@ import java.util.List;
 @CrossOrigin(origins = "*")
 public class CustomerController {
 
+
     @Autowired
     private CustomerService customerService;
     //will help you to link backend to frontend
@@ -47,4 +48,5 @@ public class CustomerController {
     public ResponseEntity<Object> deleteCustomer(@PathVariable Long id) {
         return customerService.deleteCustomer(id);
     }
+
 }
