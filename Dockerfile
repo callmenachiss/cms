@@ -1,12 +1,10 @@
-FROM maven:3.8.5-openjdk-17 AS build
-COPY . .
-RUN mvn clean package -DskipTests
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 
 FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 
-COPY --from=build /target/cms-0.0.1-SNAPSHOT.jar app.jar
+COPY target/cms-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 

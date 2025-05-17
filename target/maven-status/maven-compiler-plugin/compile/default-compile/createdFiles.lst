@@ -1,6 +1,10 @@
 com/shopping/cms/entity/Customer.class
+com/shopping/cms/entity/Passengers.class
 com/shopping/cms/CmsApplication.class
 com/shopping/cms/service/CustomerService.class
 com/shopping/cms/dto/LoginRequest.class
+com/shopping/cms/repository/PassengerRepository.class
 com/shopping/cms/controller/CustomerController.class
+com/shopping/cms/controller/SampleController.class
 com/shopping/cms/repository/CustomerRepository.class
+com/shopping/cms/service/PassengerService.class
