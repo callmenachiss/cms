@@ -1,0 +1,6 @@
+/Users/nkaruppiah/Documents/datafetchapi/cms/src/main/java/com/shopping/cms/CmsApplication.java
+/Users/nkaruppiah/Documents/datafetchapi/cms/src/main/java/com/shopping/cms/controller/CustomerController.java
+/Users/nkaruppiah/Documents/datafetchapi/cms/src/main/java/com/shopping/cms/dto/LoginRequest.java
+/Users/nkaruppiah/Documents/datafetchapi/cms/src/main/java/com/shopping/cms/entity/Customer.java
+/Users/nkaruppiah/Documents/datafetchapi/cms/src/main/java/com/shopping/cms/repository/CustomerRepository.java
+/Users/nkaruppiah/Documents/datafetchapi/cms/src/main/java/com/shopping/cms/service/CustomerService.java
