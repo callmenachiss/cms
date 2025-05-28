@@ -38,6 +38,11 @@ public class CustomerController {
         return customerService.getAllCustomers();
     }
 
+    @GetMapping("/test")
+    public String getTest() {
+        return "sample working as expected";
+    }
+
     // In CustomerController.java
     @PutMapping("/update/{id}")
     public ResponseEntity<Object> updateCustomer(@PathVariable Long id, @RequestBody Customer customer) {
